@@ -9,33 +9,29 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <style>
         section {
-            float: right;
-            /*Sirve con los padres*/
             width: 500px;
             height: 200px;
             border: 1px solid #000;
             margin: 0 auto;
             display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: stretch;
-            flex-wrap: nowrap;
         }
         
         .caja1 {
             background: blue;
             float: left;
-            /*No sirve con los hijos*/
+            flex-grow: 1;
         }
         
         .caja2 {
             background: green;
+            flex-grow: 2;
         }
         
         .caja3 {
             background: pink;
-            align-self: center;
+            flex-grow: 1;
         }
+        /*La suma de los flex-grow es de 4, el espacio disponible se dividira entre 4 lo cúal sería un 25% entonces la caja1 tendría 25%, la caja2 50% y la caja3 25% del espacio disponible.*/
 
     </style>
 </head>

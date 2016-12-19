@@ -11,10 +11,13 @@
         .contenedor {
             max-width: 80%;
             margin: 1rem auto;
+            display: flex;
+            flex-wrap: wrap;
         }
         
         header {
-            background: #cced14;
+            flex: 1 1 100%;
+            background: #cff821;
             padding: 1rem;
             display: flex;
             justify-content: space-between;
@@ -50,19 +53,31 @@
         
         .contenido {
             background: #72c611;
+            flex: 3 1 0px;
+            order: 2;
+            padding: 1rem;
         }
         
         .lateral-1 {
             background: #2999ba;
+            flex: 1 1 0px;
+            order: 1;
+            padding: 1rem;
         }
         
         .lateral-2 {
             background: #fa15bc;
+            flex: 1 1 0px;
+            order: 3;
+            padding: 1rem;
         }
         
         footer{
             background: #121111;
             color: #fff;
+            flex: 1 1 100%;
+            text-align: center;
+            order: 4;
         }
 
     </style>

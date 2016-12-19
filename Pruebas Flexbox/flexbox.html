@@ -10,25 +10,33 @@
     <style>
         section {
             width: 500px;
-            height: 200px;
-            border: 1px solid #000;
-            margin: 0 auto;
+            margin: 1rem auto;
             display: flex;
+            border: 1px solid blue;
         }
         
         .caja1 {
-            background: blue;
-            flex: 2 1 0px;
+            background: red;
+            padding: 1rem;
+            order: 4;
         }
         
         .caja2 {
             background: green;
-            flex: 1 1 0px;
+            padding: 1rem;
+            order: 3;
         }
         
         .caja3 {
             background: pink;
-            flex: 2 1 0px;
+            padding: 1rem;
+            order: 2;
+        }
+        
+        .caja4 {
+            background: orange;
+            padding: 1rem;
+            order: 1;
         }
 
     </style>
@@ -36,9 +44,10 @@
 
 <body>
     <section>
-        <article class="caja1">Caja 1 Caja 1 Caja 1 Caja 1</article>
-        <article class="caja2">Caja 2 Caja 2</article>
+        <article class="caja1">Caja 1</article>
+        <article class="caja2">Caja 2</article>
         <article class="caja3">Caja 3</article>
+        <article class="caja4">Caja 4</article>
     </section>
 </body>
 

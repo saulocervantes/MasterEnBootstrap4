@@ -1,4 +1,12 @@
+html {
+  font-size: 15px; }
+
 body {
-  background: #009500; }
+  font-family: 'Open Sans', sans-serif;
+  color: #111111; }
+
+.encabezado {
+  background: #111111;
+  color: #fff; }
 
 /*# sourceMappingURL=estilos.css.map */

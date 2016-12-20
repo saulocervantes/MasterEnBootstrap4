@@ -7,6 +7,16 @@ body {
 
 .encabezado {
   background: #111111;
-  color: #fff; }
+  color: #fff;
+  padding: 0.5rem 0; }
+
+.encabezado .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.encabezado .logo img {
+  width: 150px;
+  height: auto; }
 
 /*# sourceMappingURL=estilos.css.map */

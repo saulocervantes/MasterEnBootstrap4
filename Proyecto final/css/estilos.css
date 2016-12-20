@@ -19,4 +19,13 @@ body {
   width: 150px;
   height: auto; }
 
+.boton-buscar,
+.boton-menu {
+  color: #fff;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0 .5rem;
+  font-size: 2rem; }
+
 /*# sourceMappingURL=estilos.css.map */
